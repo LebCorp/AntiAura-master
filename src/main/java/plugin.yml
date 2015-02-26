@@ -1,0 +1,13 @@
+name: AntiAura
+version: 1.0
+description: AntiAura plugin updated by LebCorp
+author: maciekmm
+website: www.uhcgames.com
+main: tk.maciekmm.antiaura.AntiAura
+depend: [ProtocolLib]
+commands:
+  auracheck:
+    description: Check if player has aura hack
+    usage: /<command> <nickname> (running/standing) (invisible/visible) - checks for aura hack
+    aliases: [ac]
+    permission: auracheck.check
